@@ -1,0 +1,1764 @@
+#1715282436
+uname -a
+#1715282436
+uname -r
+#1715282436
+whoammi
+#1715282436
+whoami
+#1715282436
+sync
+#1715282436
+ps -ef
+#1715282436
+ps
+#1715282436
+yum repo
+#1715282436
+yum update
+#1715282436
+make wget gcc-c++ cmake net-tools bind-utils psmisc 
+#1715282436
+yum -y install make wget gcc-c++ cmake net-tools bind-utils psmisc 
+#1715282436
+ifconfig -a
+#1715282436
+useradd kickscar
+#1715282436
+passwd kickscar
+#1715282436
+logout
+#1715282436
+df -h
+#1715282436
+ifconfig
+#1715282436
+ifconfig -a
+#1715282436
+w
+#1715282436
+exit
+#1715282436
+su -
+#1715282436
+logout
+#1715282436
+ls
+#1715282436
+echo 'hello' > /dev/ttyl
+#1715282436
+cd /dev
+#1715282436
+ls
+#1715282436
+ls -al
+#1715282436
+cd ~
+#1715282436
+ls -al
+#1715282436
+echo 'hello' > /dev/tty1
+#1715282436
+clear
+#1715282436
+echo 'hello' > /dev/tty1
+#1715282436
+cd /dev
+#1715282436
+ls -al
+#1715282436
+cd /mnt
+#1715282436
+ls -l
+#1715282436
+mkdir cdrom
+#1715282436
+ls
+#1715282436
+mount -t iso9660 /dev/sr0 /mnt/cdrom
+#1715282436
+cd cdrom
+#1715282436
+ls
+#1715282436
+cd ..
+#1715282436
+umount /dev/cdrom
+#1715282436
+cd cdrom
+#1715282436
+ls
+#1715282436
+ls -l
+#1715282436
+cd
+#1715282436
+clear
+#1715282436
+pwd
+#1715282436
+wget https://download.oracle.com/java/17/archive/jdk-17.0.10_linux-aarch64_bin.tar.gz
+#1715282436
+ls -l
+#1715282436
+tar xvfz jdk-17.0.10_linux-aarch64_bin.tar.gz 
+#1715282436
+yum install tar -y
+#1715282436
+yum install gzip -y
+#1715282436
+tar xvfz jdk-17.0.10_linux-aarch64_bin.tar.gz 
+#1715282436
+ls -l
+#1715282436
+cd local
+#1715282436
+ls
+#1715282436
+cd /usr/local
+#1715282436
+ls
+#1715282436
+mkdir poscodx
+#1715282436
+cd poscodx/
+#1715282436
+pwd
+#1715282436
+mv /root/jdk-17.0.10 .
+#1715282436
+ls
+#1715282436
+ls -al
+#1715282436
+cd
+#1715282436
+pwd
+#1715282436
+/usr/local/poscodx/jdk-17.0.10/bin/java --version
+#1715282436
+yum install -y vi
+#1715282436
+echo $PATH
+#1715282436
+vi /etc/profile
+#1715282436
+echo $PATH
+#1715282436
+source /etc/profile
+#1715282436
+echo $PATH
+#1715282436
+java --version
+#1715282436
+vi /etc/profile
+#1715282436
+ls
+#1715282436
+cd /usr/local/poscodx/
+#1715282436
+ls
+#1715282436
+java
+#1715282436
+exit
+#1715282436
+pwd
+#1715282436
+echo 'hello'
+#1715282436
+echo 'hello' > test.txt
+#1715282436
+cat test.txt
+#1715282436
+ls
+#1715282436
+df -h
+#1715282436
+exit
+#1715282436
+shutdown
+#1715282436
+shutdown -c
+#1715282436
+shutdown -h now
+#1715282436
+ls -al
+#1715282436
+pwd
+#1715282436
+useradd user1
+#1715282436
+cat /etc/passwd
+#1715282436
+ls -l /ho
+#1715282436
+useradd -g users user2
+#1715282436
+cat /etc/passwd
+#1715282436
+cat /etc/group
+#1715282436
+cd /home/user
+#1715282436
+cd /home/
+#1715282436
+ls -l
+#1715282436
+cd user1
+#1715282436
+ls -al
+#1715282436
+cd ..
+#1715282436
+ls -l /etc/skel
+#1715282436
+cd user1
+#1715282436
+ls -al /etc/skel
+#1715282436
+cd ~
+#1715282436
+useradd -M user3
+#1715282436
+cat /etc/passwd
+#1715282436
+ls -al home
+#1715282436
+ls -al /home
+#1715282436
+userdel user1
+#1715282436
+ls -al /home
+#1715282436
+cat /etc/passwd\
+#1715282436
+cat /etc/passwd
+#1715282436
+userdel user2
+#1715282436
+cat /etc/passwd
+#1715282436
+ls -al /home
+#1715282436
+userdel -r user2
+#1715282436
+cd /home
+#1715282436
+ls -al
+#1715282436
+rm -f user2
+#1715282436
+rm -rf user2
+#1715282436
+ls -al
+#1715282436
+cd ~
+#1715282436
+cat /etc/passwd
+#1715282436
+userdel user3
+#1715282436
+ls -al /home
+#1715282436
+cat /etc/passwd
+#1715282436
+cat /etc/group
+#1715282436
+groups
+#1715282436
+groups kickscar
+#1715282436
+ls -alh
+#1715282436
+ll
+#1715282436
+ls -l
+#1715282436
+ls -al
+#1715282436
+alias
+#1715282436
+mkdir dir1
+#1715282436
+ls -al
+#1715282436
+mkdir dir2/subdir1
+#1715282436
+mkdir -p dir2/subdir1
+#1715282436
+ls -al
+#1715282436
+ls -al /dir2
+#1715282436
+ls -al dir2
+#1715282436
+ls -al
+#1715282436
+rmdir dir1
+#1715282436
+ls -l
+#1715282436
+rmdir dir2
+#1715282436
+rmdir dir2/subdir1/
+#1715282436
+rmdir dir2
+#1715282436
+ls -al
+#1715282436
+cd /
+#1715282436
+ls -al
+#1715282436
+cd ..
+#1715282436
+cd ~
+#1715282436
+cd ..
+#1715282436
+ls -al
+#1715282436
+cd ./etc/systemd/
+#1715282436
+ls -al
+#1715282436
+cd ~
+#1715282436
+cd /usr/local/
+#1715282436
+ls -al
+#1715282436
+cd ~
+#1715282436
+cd ~kickscar/
+#1715282436
+cd /var/local/
+#1715282436
+cd ~
+#1715282436
+ls -al
+#1715282436
+pwd
+#1715282436
+ls -al
+#1715282436
+clear
+#1715282436
+pwd
+#1715282436
+ls -al
+#1715282436
+mkdir test01
+#1715282436
+ls -al
+#1715282436
+cd test01/
+#1715282436
+pwd
+#1715282436
+mkdir test011
+#1715282436
+ls -al
+#1715282436
+mkdir test012
+#1715282436
+ls -al
+#1715282436
+cd ~
+#1715282436
+mkdir -p test02/test021
+#1715282436
+ls -al
+#1715282436
+cd test02
+#1715282436
+ls -al
+#1715282436
+cd ~
+#1715282436
+cd test02/test021/
+#1715282436
+cd ~
+#1715282436
+pwd
+#1715282436
+cd test02/test021/
+#1715282436
+pwd
+#1715282436
+cd ~
+#1715282436
+rmdir -p test01/test011
+#1715282436
+rmdir -p test011
+#1715282436
+rmdir -p test01
+#1715282436
+rm -rf test01
+#1715282436
+rm -rf test02
+#1715282436
+ls -al
+#1715282436
+rm test.txt 
+#1715282436
+ls -al
+#1715282436
+mkdir hi
+#1715282436
+rm -l hi
+#1715282436
+rm -r hi
+#1715282436
+ls -al
+#1715282436
+cd /dev/
+#1715282436
+ls -al
+#1715282436
+mkdir dowork
+#1715282436
+cd dowork/
+#1715282436
+mkdir c
+#1715282436
+ls -al
+#1715282436
+pwd
+#1715282436
+cd c/
+#1715282436
+pwd
+#1715282436
+vi helloworld.c
+#1715282436
+cat helloworld.c 
+#1715282436
+gcc -c helloworld.c
+#1715282436
+ls -al
+#1715282436
+gcc -o helloworld helloworld.o 
+#1715282436
+ls -al
+#1715282436
+./helloworld 
+#1715282436
+vi helloworld.c
+#1715282436
+cat helloworld.c 
+#1715282436
+vi helloworld.h
+#1715282436
+cat helloworld.h
+#1715282436
+vi main.c
+#1715282436
+ls -al
+#1715282436
+cat main.c
+#1715282436
+gcc -c helloworld.c
+#1715282436
+ls -al
+#1715282436
+gcc -c main.c
+#1715282436
+ls -al
+#1715282436
+gcc -o helloworld helloworld.o main.o
+#1715282436
+vi helloworld.c
+#1715282436
+vi makefile
+#1715282436
+make clean
+#1715282436
+ls -l
+#1715282436
+make
+#1715282436
+ls -al
+#1715282436
+./helloworld 
+#1715282436
+make
+#1715282436
+vi helloworld.c
+#1715282436
+make
+#1715282436
+./helloworld 
+#1715282436
+cd ~
+#1715282436
+vi test.txt
+#1715282436
+cp test.txt test.txt.bak
+#1715282436
+ls -al
+#1715282436
+cp test.txt test01
+#1715282436
+ls test01
+#1715282436
+ls -al
+#1715282436
+rm -rf test01
+#1715282436
+ls -al
+#1715282436
+cd /dev/dowork/
+#1715282436
+ls -al
+#1715282436
+cd ..
+#1715282436
+ls -al
+#1715282436
+mv /dev/dowork/ ~
+#1715282436
+ls -l
+#1715282436
+ls
+#1715282436
+cd ~
+#1715282436
+ls
+#1715282436
+cp -R dowork test01
+#1715282436
+ls -al
+#1715282436
+mv test.txt test02.txt
+#1715282436
+ls -al
+#1715282436
+cp -R dowork dowork.bak
+#1715282436
+ls -al
+#1715282436
+rm -rf dowork.bak/
+#1715282436
+ls -al
+#1715282436
+find / -name "*.c"
+#1715282436
+find /home -perm 755
+#1715282436
+ps -ef | grep sshd
+#1715282436
+echo "hello"
+#1715282436
+cd home
+#1715282436
+cd /home/
+#1715282436
+ls -al
+#1715282436
+echo "apple" >> hello.txt
+#1715282436
+echo "linux" >> hello.txt
+#1715282436
+echo "java" >> hello.txt
+#1715282436
+echo "red" >> hello.txt
+#1715282436
+echo "hat" >> hello.txt
+#1715282436
+echo "gnu" >> hello.txt
+#1715282436
+echo "unix" >> hello.txt
+#1715282436
+cat hello.txt 
+#1715282436
+sort < hello.txt 
+#1715282436
+sort < hello.txt > sort.txt
+#1715282436
+ls -al
+#1715282436
+cd
+#1715282436
+ls -al
+#1715282436
+cd /home/
+#1715282436
+ls -al
+#1715282436
+mv hello.txt ~
+#1715282436
+mv sort.txt ~
+#1715282436
+cd
+#1715282436
+ls -al
+#1715282436
+chmod 600 hello.txt 
+#1715282436
+ls -al
+#1715282436
+cd /home/
+#1715282436
+ls -al
+#1715282436
+cd ..
+#1715282436
+cd /home/
+#1715282436
+ls -l
+#1715282436
+rm -rf user1/
+#1715282436
+ls -al
+#1715282436
+tar cvf kickscar.tar kickscar/
+#1715282436
+ls -l
+#1715282436
+mv kickscar.tar /root
+#1715282436
+cd
+#1715282436
+ls -al
+#1715282436
+tar xvf kickscar.tar 
+#1715282436
+ls -al
+#1715282436
+rm -rf kickscar*
+#1715282436
+ls -al
+#1715282436
+cd /home/
+#1715282436
+ls -l
+#1715282436
+tar cvf kickscar.tar kickscar
+#1715282436
+ls -l
+#1715282436
+gzip kickscar.tar
+#1715282436
+ls -al
+#1715282436
+gzip -d kickscar.tar.gz 
+#1715282436
+ls -al
+#1715282436
+cd
+#1715282436
+ls -al
+#1715282436
+cd /home/
+#1715282436
+ls -al
+#1715282436
+rm -rf kickscar.tar 
+#1715282436
+ls -al
+#1715282436
+cd
+#1715282436
+ls -al
+#1715282436
+clear
+#1715282436
+yum -y install curl-devel expat-devel gettext-devel
+#1715282436
+yum -y install openssl-devel zlib-devel perl-devel
+#1715282436
+wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.45.0.tar.gz
+#1715282436
+ls -al
+#1715282436
+tar xvfz git-2.45.0.tar.gz 
+#1715282436
+ls -al
+#1715282436
+cd git-2.45.0
+#1715282436
+ls -al
+#1715282436
+./configure --prefix=/usr/local/poscodx/git-2.45.0
+#1715282436
+make
+#1715282436
+make install
+#1715282436
+cd
+#1715282436
+pwd
+#1715282436
+/usr/local/poscodx/git-2.45.0/bin/git --version
+#1715282436
+ln -s /usr/local/poscodx/git-2.45.0 /usr/local/poscodx/git
+#1715282436
+ls -al
+#1715282436
+ls -al /usr/local/poscodx/
+#1715282436
+cd /usr/local/poscodx/
+#1715282436
+pwd
+#1715282436
+ls -al
+#1715282436
+rm -f git
+#1715282436
+ls -al
+#1715282436
+ln -s git-2.45.0 git
+#1715282436
+ls -al
+#1715282436
+cd git
+#1715282436
+ls -al
+#1715282436
+cd ..
+#1715282436
+cd git
+#1715282436
+vi /etc/profile
+#1715282436
+cd
+#1715282436
+pwd
+#1715282436
+source /etc/profile
+#1715282436
+git --version
+#1715282436
+mkdir rocky-practices
+#1715282436
+cd rocky-practices/
+#1715282436
+ls -al
+#1715282436
+pwd
+#1715282436
+mkdir docs
+#1715282436
+mkdir lx
+#1715282436
+cd docs/
+#1715282436
+vi git-install.md
+#1715282436
+cat git-install.md 
+#1715282436
+cd ..
+#1715282436
+cd lx/
+#1715282436
+mkdir etc
+#1715282436
+ls -al
+#1715282436
+mkdir root
+#1715282436
+ls -al
+#1715282436
+pwd
+#1715282436
+cp /etc/profile etc
+#1715282436
+cp -R /root/dowork/ root/
+#1715282436
+ls -al
+#1715282436
+cd etc/
+#1715282436
+ls -al
+#1715282436
+cd ..
+#1715282436
+cd root/
+#1715282436
+ls -al
+#1715282436
+cd dowork/
+#1715282436
+ls -al
+#1715282436
+cd ../../
+#1715282436
+ls -al
+#1715282436
+cd ..
+#1715282436
+pwd
+#1715282436
+echo "# rocky-practices" >> README.md
+#1715282436
+ls -al
+#1715282436
+git init
+#1715282436
+ls -al
+#1715282436
+git add -A
+#1715282436
+git commit -m "#1"
+#1715282436
+git config --global user.name 'EunJung803'
+#1715282436
+git config --global user.email 'aimee3322@gmail.com'
+#1715282436
+git branch -M main
+#1715282436
+git remote add origin https://github.com/EunJung803/rocky-practices.git
+#1715282436
+git config credential.helper store
+#1715282436
+git push -u origin main
+#1715282436
+java --version
+#1715282436
+cd
+#1715282436
+pwd
+#1715282436
+ls -al
+#1715282436
+cd dowork/
+#1715282436
+ls -al
+#1715282436
+pwd
+#1715282436
+mkdir java
+#1715282436
+ls -l
+#1715282436
+cd java/
+#1715282436
+ls -al
+#1715282436
+pwd
+#1715282436
+vi HelloWorld.java
+#1715282436
+ls -al
+#1715282436
+javac HelloWorld.java
+#1715282436
+ls -al
+#1715282436
+java HelloWorld
+#1715282436
+cd /usr/local/poscodx/
+#1715282436
+ls -al
+#1715282436
+ln -s jdk-17.0.10/ java
+#1715282436
+ls -al
+#1715282436
+vi /etc/profile
+#1715282436
+source /etc/profile
+#1715282436
+java --version
+#1715282436
+cd
+#1715282436
+cd rocky-practices/
+#1715282436
+cp -R /root/dowork/java/ lx/root/dowork/
+#1715282436
+git add -A
+#1715282436
+git commit -m "java"
+#1715282436
+git push
+#1715282436
+cd
+#1715282436
+cd dowork/
+#1715282436
+ls -al
+#1715282436
+echo $JAVA_HOME
+#1715282436
+exit
+#1715212998
+pstree
+#1715213235
+cs dowork/
+#1715213242
+cd dowork/
+#1715213245
+ls -al
+#1715213247
+mkdir sh
+#1715213249
+ls -al
+#1715213254
+cd sh/
+#1715213255
+ls -al
+#1715213258
+pwd
+#1715213318
+vi hello.sh
+#1715213514
+ls -al
+#1715213543
+chmod 750 hello.sh 
+#1715213545
+ls -al
+#1715213555
+./hello.sh 
+#1715213666
+cat hello.sh 
+#1715213886
+timedatectl
+#1715213953
+timedatectl set-timezone Asia/Seoul
+#1715213955
+timedatectl
+#1715214040
+yum -y install chrony
+#1715214192
+vi /etc/chrony.conf
+#1715214217
+ps -ef | grep chrond
+#1715214442
+ps -ef | grep chronyd
+#1715214463
+systemctl restart chronyd
+#1715214468
+systemctl status chronyd
+#1715214620
+chronyc sources -v
+#1715214667
+cd
+#1715214669
+cd rocky-practices/
+#1715214670
+ls -al
+#1715214674
+pwd
+#1715214683
+git pull
+#1715214710
+cd lx/
+#1715214714
+cd ..
+#1715214720
+cd lx/etc/
+#1715214721
+ls -al
+#1715214739
+cp /etc/chrony.conf .
+#1715214740
+ls -al
+#1715214775
+git add .
+#1715214807
+git commit -m "chronyd"
+#1715214809
+git push
+#1715215059
+vi /etc/profile
+#1715215098
+history
+#1715215228
+vi /etc/profile
+#1715215284
+history
+#1715215290
+source /etc/profile
+#1715215323
+vi /etc/profile
+#1715215379
+source /etc/profile
+#1715215382
+history
+#1715215389
+df -h
+#1715215811
+history
+#1715215820
+vi /etc/profile
+#1715215841
+fdisk -l
+#1715216660
+vi /etc/profile
+#1715216676
+source /etc/profile
+#1715216863
+cd dowork/
+#1715216865
+cd java/
+#1715216871
+vi HelloWorld.java 
+#1715216959
+cd
+#1715216979
+cd usr/local/poscodx
+#1715216985
+cd /usr
+#1715216988
+ls
+#1715216997
+cd local/poscodx/
+#1715216999
+ls -al
+#1715217001
+cd
+#1715217099
+cd dowork/
+#1715217100
+ls -al
+#1715217101
+cd java/
+#1715217102
+ls -al
+#1715217398
+cd docs
+#1715217400
+cd..
+#1715217402
+cd ..
+#1715217403
+ls -al
+#1715217405
+cd ..
+#1715217406
+ls -al
+#1715217442
+cd dowork/
+#1715217444
+mkdir docs
+#1715217446
+cd docs/
+#1715217449
+vi test.txt
+#1715217747
+cd
+#1715217756
+cd /usr/local/poscodx/
+#1715217757
+ls -al
+#1715217760
+cd
+#1715217762
+cd dowork/
+#1715217764
+cd java/
+#1715217765
+ls -al
+#1715217768
+java HelloWorld.
+#1715217770
+java HelloWorld
+#1715217789
+vi /etc/profile
+#1715217844
+source /etc/profile
+#1715217849
+java HelloWorld
+#1715217867
+javac HelloWorld.java
+#1715217870
+java HelloWorld
+#1715217876
+vi /etc/profile
+#1715217896
+source /etc/profile
+#1715217899
+javac HelloWorld.java
+#1715217905
+java HelloWorld
+#1715217957
+vi /etc/profile
+#1715218062
+java --version
+#1715218122
+vi /etc/profile
+#1715218139
+source /etc/profile
+#1715218142
+java --version
+#1715218145
+javac HelloWorld.java
+#1715218148
+java HelloWorld
+#1715218159
+vi /etc/profile
+#1715218750
+ls -al
+#1715218997
+vi /etc/profile
+#1715220264
+vi HelloWorld.java
+#1715220363
+cd
+#1715220377
+vi .vimrc
+#1715220420
+cd dowork/
+#1715220422
+cd java/
+#1715220425
+vi HelloWorld.java 
+#1715220453
+cd
+#1715220578
+cd dowork/java/
+#1715220582
+vim HelloWorld.java 
+#1715220610
+cd
+#1715220618
+mv .vimrc .virc
+#1715220623
+cd dowork/java/
+#1715220627
+vi HelloWorld.java 
+#1715220657
+cd
+#1715220660
+vi .virc 
+#1715220688
+ls -al
+#1715220709
+cd /usr/bin/
+#1715220710
+ls -al
+#1715220718
+ls -al vi*
+#1715220723
+whereis vim
+#1715220741
+cd
+#1715220807
+cd dowork/java/
+#1715220813
+vi HelloWorld.java 
+#1715221003
+ls -al
+#1715221149
+cd 
+#1715221154
+ping www.posco.com
+#1715221170
+ping www.google.com
+#1715221182
+ping www.naver.com
+#1715221758
+pwd
+#1715221776
+cat /proc/sys/net/ipv4/icmp_echo_ignore_all 
+#1715221816
+vi /etc/sysctl.conf
+#1715221860
+sysctl -p
+#1715222270
+cd dowork/
+#1715222272
+ls -al
+#1715222299
+cd sh/
+#1715222300
+ls -al
+#1715222302
+cd ..
+#1715222303
+ls -al
+#1715222314
+cd
+#1715222320
+vi /etc/hostname 
+#1715222400
+sync
+#1715222412
+hostname
+#1715222423
+reboot
+#1715222487
+hostname
+#1715222586
+netstat -r
+#1715222660
+netstat -ant
+#1715223002
+ifconfig -a
+#1715223032
+nmcli connection
+#1715224003
+ifconfig -a
+#1715224338
+nslookup www.posco.com
+#1715224869
+vi /etc/NetworkManager/system-connections/enp0s6.nmconnection 
+#1715225108
+systemctl restart NeworkManager
+#1715225138
+nslookup www.posco.com
+#1715225148
+vi /etc/NetworkManager/system-connections/enp0s6.nmconnection 
+#1715225197
+route
+#1715225217
+vi /etc/NetworkManager/system-connections/enp0s6.nmconnection 
+#1715225319
+ip route
+#1715225328
+systemctl restart NeworkManager
+#1715225362
+Systemctl restart NetworkManage
+#1715225372
+systemctl restart NetworkManage
+#1715225433
+vi /etc/NetworkManager/system-connections/enp0s6.nmconnection 
+#1715225462
+systemctl restart NetworkManage
+#1715225478
+reboot
+#1715263149
+ifconfig -a
+#1715230762
+nslookup www.posco.com
+#1715230783
+shutdown -h now
+#1715232161
+ps -ef | grep firewalld
+#1715232241
+vi /etc/firewalld/zones/public.xml
+#1715232264
+ifconfig -a
+#1715232333
+pwd
+#1715232346
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.89/bin/apache-tomcat-9.0.89.tar.gz
+#1715232369
+tar xvfz apache-tomcat-9.0.89.tar.gz
+#1715232398
+mv apache-tomcat-9.0.89 /usr/local/poscodx
+#1715232399
+ls -al
+#1715232406
+cd /usr/local/poscodx
+#1715232411
+ls -al
+#1715232424
+ln -s apache-tomcat-9.0.89 tomcat
+#1715232427
+ls -al
+#1715232477
+cd
+#1715232484
+vi /usr/local/poscodx/tomcat/conf/server.xml
+#1715232568
+/usr/local/poscodx/tomcat/bin/catalina.sh start
+#1715232606
+ps -ef | grep tomcat
+#1715232610
+ps -ef | grep java
+#1715232694
+netstat -anpt | grep LISTEN
+#1715232847
+vi /etc/firewalld/zones/public.xml
+#1715232993
+vi /usr/lib/firewalld/services
+#1715233006
+cd /usr/lib/firewalld/services
+#1715233007
+ls
+#1715233025
+cp ssh.xml tomcat.xml
+#1715233050
+vi /usr/lib/firewalld/services
+#1715233054
+cd
+#1715233055
+vi /usr/lib/firewalld/services
+#1715233081
+cd /usr/lib/firewalld/services
+#1715233086
+vi tomcat.xml 
+#1715233302
+systemctl stop firewalld
+#1715233366
+systemctl start firewalld
+#1715234350
+ls -l Igrep .xml
+#1715234356
+ls -l | grep .xml
+#1715234364
+cd
+#1715234365
+cd /etc
+#1715234367
+ls -l | grep .xml
+#1715234392
+ls
+#1715234626
+cd
+#1715234698
+/usr/local/poscodx/tomcat/bin/catalina.sh stop
+#1715235035
+ifconfig
+#1715235038
+ifconfig -a
+#1715235202
+echo $PATH
+#1715235277
+cd /usr/lib
+#1715235278
+ls
+#1715235287
+cd systemd/
+#1715235289
+ls
+#1715235292
+cd system
+#1715235293
+ls
+#1715235320
+ls -l | grep ssh
+#1715235345
+vi tomcat.service
+#1715235540
+systemctl enable tomcat
+#1715235558
+systemctl start tomcat
+#1715235580
+systemctl status tomcat
+#1715235604
+systemctl status tomcat.service
+#1715235640
+ps -ef | grep tomcat
+#1715235662
+cd /usr/local/poscodx/tomcat/
+#1715235663
+ls -al
+#1715235668
+cd logs/
+#1715235669
+ls -al
+#1715235675
+cat catalina.out
+#1715235687
+ls -al
+#1715235758
+cd
+#1715235766
+systemctl stop tomcat
+#1715235771
+systemctl start tomcat
+#1715235881
+journalctl -xeu tomcat.service
+#1715235990
+systemctl start tomcat
+#1715236094
+cd /usr/local/poscodx/tomcat/
+#1715236095
+ls -al
+#1715236096
+cd ..
+#1715236098
+ls -al
+#1715236107
+cd tomcat/
+#1715236109
+ls -al
+#1715236299
+disable selinux
+#1715236652
+ps -ef | grep tomcat
+#1715236754
+vi /etc/selinux/config
+#1715236836
+reboot
+#1715236867
+systemctl start tomcat
+#1715236878
+ps -ef | grep tomcat
+#1715237086
+reboot
+#1715237120
+ps -ef | grep tomcat
+#1715237657
+systemctl status firewalld
+#1715238011
+cd /etc/firewalld/zones/
+#1715238014
+vi public.xml
+#1715238693
+cd /usr/local/poscodx/tomcat/conf/
+#1715238694
+pwd
+#1715238707
+ls
+#1715238714
+vi tomcat-users.xml
+#1715238840
+cd ..
+#1715238841
+pwd
+#1715238842
+ls
+#1715238844
+ls -al
+#1715238855
+cd webapps/
+#1715238857
+ls -al
+#1715238870
+cd manager/
+#1715238874
+ls -al
+#1715238876
+cd META-INF/
+#1715238878
+ls -l
+#1715238882
+vi context.xml 
+#1715238982
+systemctl stop tomcat
+#1715238988
+ps -ef | grep tomcat
+#1715238995
+systemctl start tomcat
+#1715238997
+ps -ef | grep tomcat
+#1715239395
+cd
+#1715239427
+wget https://mirror.navercorp.com/apache/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.tar.gz
+#1715239552
+wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+#1715239555
+ls -al
+#1715239573
+tar xvfz apache-maven-3.9.6-bin.tar.gz 
+#1715239590
+mv apache-maven-3.9.6 /usr/local/poscodx
+#1715239595
+cd /usr/local/poscodx/
+#1715239597
+ls -al
+#1715239611
+ln -s apache-maven-3.9.6/ maven
+#1715239613
+ls al
+#1715239615
+ls -al
+#1715239642
+vi /etc/profile
+#1715239669
+source /etc/profile
+#1715239671
+mvn
+#1715239677
+mvn --version
+#1715239687
+cd
+#1715239689
+ls -al
+#1715239695
+cd dowork/
+#1715239796
+git clone https://github.com/bitacademy-poscodx/java-study.git
+#1715239800
+ls -al
+#1715239802
+cd java
+#1715239803
+ls -al
+#1715239809
+cd
+#1715239812
+cd ..
+#1715239814
+cd
+#1715239818
+cd dowork/
+#1715239824
+cd java-study/
+#1715239825
+ls -al
+#1715239971
+mvn clean package
+#1715240039
+cd
+#1715240042
+ls -al
+#1715240317
+cd dowork/
+#1715240320
+cd java-study/
+#1715240347
+mvn clean package
+#1715240369
+cd network/target/
+#1715240370
+ls
+#1715240519
+java -cp ./network-0.0.1-SNAPSHOT.jar httpd.SimpleHttpServer
+#1715241158
+cd ..
+#1715241163
+ls -al
+#1715241172
+git clone https://github.com/EunJung803/java-study.git
+#1715241225
+rm -rf java-study/
+#1715241226
+ls -al
+#1715241230
+git clone https://github.com/EunJung803/java-study.git
+#1715241234
+cd java-study/
+#1715241235
+ls -al
+#1715241242
+mvn clean package
+#1715241247
+cd network/
+#1715241248
+ls -al
+#1715241249
+cd target/
+#1715241251
+ls -al
+#1715241260
+java -cp ./network-0.0.1-SNAPSHOT.jar httpd.SimpleHttpServer
+#1715276821
+ls -al
+#1715244511
+shutdown -h now
+#1715282442
+cd /usr/local/poscodx/
+#1715282444
+ls -al
+#1715282448
+git log
+#1715282452
+cd
+#1715282454
+cd dowork/
+#1715282455
+ls -al
+#1715282457
+git log
+#1715282474
+cd
+#1715282497
+find / -name ".git"
+#1715282504
+cd rocky-practices/
+#1715282505
+ls -al
+#1715282508
+git log
+#1715282510
+q
+#1715282558
+cd
+#1715282602
+find / -name "public.xml"
+#1715250683
+cp /etc/firewalld/zones/public.xml rocky-practices/
+#1715250689
+cd rocky-practices/
+#1715250692
+ls -L
+#1715250745
+cp ./public.xml ./lx/etc/firewalld/zones
+#1715250755
+cd lx
+#1715250762
+mkdir etc
+#1715250766
+ls -al
+#1715250768
+cd etc/
+#1715250770
+ls -al
+#1715250816
+mkdir firewalld
+#1715250818
+cd firewalld/
+#1715250820
+mkdir zones
+#1715250824
+ls -al
+#1715250828
+cd ../../..
+#1715250830
+ls -al
+#1715250841
+cp ./public.xml ./lx/etc/firewalld/zones/
+#1715250844
+ls -al
+#1715250855
+cd lx/etc/firewalld/zones/
+#1715250858
+ls -al
+#1715250860
+cd ..
+#1715250865
+ls -al
+#1715250868
+rm -rf public.xml 
+#1715250869
+ls -al
+#1715250874
+git add .
+#1715250890
+git commit -m "firewalld public.xml"
+#1715250896
+cd
+#1715250905
+vi /etc/firewalld/zones/public.xml
+#1715250912
+cd rocky-practices/
+#1715250913
+ls -al
+#1715250985
+cd lx/
+#1715250987
+ls -al
+#1715250991
+cd etc/
+#1715250995
+ls -al
+#1715251009
+cd ..
+#1715251010
+ls -al
+#1715251016
+mkdir usr
+#1715251019
+cd usr/
+#1715251022
+mkdir lib
+#1715251041
+cd lib/
+#1715251047
+mkdir firewalld
+#1715251050
+cd firewalld/
+#1715251053
+mkdir services
+#1715251057
+ls -al
+#1715251060
+cd
+#1715251083
+cp /usr/lib/firewalld/services/tomcat.xml rocky-practices/lx/usr/lib/firewalld/services/
+#1715251089
+cd rocky-practices/lx/usr/lib/firewalld/services/
+#1715251091
+ls -al
+#1715251097
+cd
+#1715251098
+cd rocky-practices/
+#1715251100
+git add .
+#1715251122
+git commit -m "tomcat.xml"
+#1715251129
+cd lx/usr/lib/
+#1715251130
+ls -al
+#1715251143
+pwd
+#1715251152
+mkdir systemd/system
+#1715251156
+mkdir systemd
+#1715251157
+cd systemd/
+#1715251160
+mkdir system
+#1715251162
+cd
+#1715251182
+cp /usr/lib/systemd/system/tomcat.service rocky-practices/lx/usr/lib/systemd/system/
+#1715251185
+cd rocky-practices/
+#1715251187
+git add .
+#1715251198
+git commit -m "tomcat.service"
+#1715251207
+ls -al
+#1715251209
+cd docs/
+#1715251210
+ls -al
+#1715251230
+vi java-install.md
+#1715251255
+cd ..
+#1715251257
+git add .
+#1715251272
+git commit -m "java install docs"
+#1715251278
+cd docs/
+#1715251280
+ls -al
+#1715251294
+vi server-time.md
+#1715251297
+git add .
+#1715251306
+git commit -m "server time docs"
+#1715251315
+vi tomcat-install.md
+#1715251410
+git add .
+#1715251418
+git commit -m "tomcat install docs"
+#1715251459
+vi maven-install.md
+#1715251485
+git add .
+#1715251491
+git commit -m "maven install docs"
+#1715251493
+cd ..
+#1715251494
+ls -al
+#1715251498
+cd lx/
+#1715251499
+ls -al
+#1715251506
+cd usr/
+#1715251507
+ls -al
+#1715251591
+cd ..
+#1715251592
+ls -al
+#1715251625
+cp /etc/profile etc
+#1715251633
+cd etc/
+#1715251634
+ls -al
+#1715251636
+vi profile 
+#1715251641
+git add .
+#1715251651
+git commit -m "update /etc/profile"
+#1715251672
+git push
+#1715251714
+history
+#1715251762
+cd ..
+#1715251790
+history -w history.20240509.txt
